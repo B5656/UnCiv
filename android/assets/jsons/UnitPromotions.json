@@ -292,7 +292,10 @@
 		effect:"This unit and all others in adjacent tiles heal 5 additional HP. This unit heals 5 additional HP outside of friendly territory.",
 		unitTypes:["Melee","Mounted","Scout"]
 	}
-	
-	
+	{
+		name:"Instant Heal",
+		effect:"Heal this Unit by 50 HP.",
+		unitTypes:["Melee","Mounted","Armor","Scout","Siege","Ranged","WaterMelee","WaterRanged","WaterSubmarine"]
+	} 
 	
 ]
